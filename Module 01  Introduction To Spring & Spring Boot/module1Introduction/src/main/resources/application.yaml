@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: module1Introduction
+
+
+
+
+notification:
+  service:
+    type: email
+
+
+debug:
+  true
