@@ -1,7 +1,9 @@
 package com.codingShuttle.Module02.controller;
 
 import com.codingShuttle.Module02.DTO.EmployeeDTO;
+import com.codingShuttle.Module02.service.EmployeeService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -13,6 +15,9 @@ import java.util.List;
 @RestController
 @Slf4j
 public class EmployeeController {
+
+    @Autowired
+    private EmployeeService employeeService;
 
     @GetMapping("/employee")
     public String getEmployeeDetails(){
@@ -37,31 +42,5 @@ public class EmployeeController {
 
     @GetMapping("/employeeDetails")
     public List<EmployeeDTO> getAllEmployees(@RequestParam(required = false) boolean active) {
-        return List.of(
-                EmployeeDTO.builder()
-                        .id(1L)
-                        .name("John Doe")
-                        .email("johnDoe@gmail.com")
-                        .age(23)
-                        .isActive(true)
-                        .dateOfJoining(LocalDate.of(2025,3,6))
-                        .build(),
-                EmployeeDTO.builder()
-                        .id(2L)
-                        .name("Sarah smith")
-                        .email("sarahsmith@gmail.com")
-                        .age(30)
-                        .isActive(true)
-                        .dateOfJoining(LocalDate.of(2024,5,10))
-                        .build(),
-                EmployeeDTO.builder()
-                        .id(3L)
-                        .name("Michael Johnson")
-                        .email("micheljhnson@gmail.com")
-                        .age(28)
-                        .isActive(false)
-                        .dateOfJoining(LocalDate.of(2023,8,15))
-                        .build()
-        );
-    }
+
 }
