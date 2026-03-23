@@ -1,0 +1,20 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!-- bean definitions here -->
+
+<!--    <bean class="com.cts.entity.Student" id="student1" p:name="Amit Birajdar" p:age="22" p:rollNumber="101"/>-->
+<!--    <bean class="com.cts.entity.Student" id="student2" p:name="Satyarthi" p:age="21" p:rollNumber="102"/>-->
+<!--    <bean class="com.cts.entity.Student" id="student3" p:name="Shaym" p:age="21" p:rollNumber="102"/>-->
+
+
+<!--    Annotation based configuration-->
+
+    <context:component-scan base-package="com.cts.entity"/>
+</beans>
+
