@@ -37,8 +37,25 @@ public class Main {
 
 
 //        ------------> Annotation based configuration using Java class ----------------------------
+//        ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
+//        Student student = context.getBean(Student.class);
+//        System.out.println(student);
+
+
+//        now Working on Setter Dependency Injection
+
+//        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+//        Student student = context.getBean(Student.class);
+//        System.out.println(student);
+
+
+//        Setter DI java based
+
+
         ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
-        Student student = context.getBean(Student.class);
+        Student student = (Student) context.getBean("studentObj");
         System.out.println(student);
     }
+
+
 }

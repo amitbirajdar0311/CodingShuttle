@@ -2,9 +2,11 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/c http://www.springframework.org/schema/c/spring-c.xsd">
 
 <!-- bean definitions here -->
 
@@ -15,6 +17,27 @@
 
 <!--    Annotation based configuration-->
 
-    <context:component-scan base-package="com.cts.entity"/>
+<!--    <context:component-scan base-package="com.cts.entity"/>-->
+
+
+<!--    -&ndash;&gt; Setter Dependency Injection -->
+
+<!--    <bean class="com.cts.entity.Address" id="address1" p:city="Pune" p:state="Maharashtra"/>-->
+<!--    <bean class="com.cts.entity.Student" id="student1" p:name="Amit Birajdar" p:age="22" p:rollNumber="101" p:address-ref="address1"/>-->
+
+
+<!--    Constructor Dependency Injection -->
+    <bean class="com.cts.entity.Address" id="address1">
+        <constructor-arg name="city" value="Pune"/>
+        <constructor-arg name="state" value="Maharashtra"/>
+    </bean>
+    <bean class="com.cts.entity.Student" id="student2">
+        <constructor-arg name="name" value="Satyarthi"/>
+        <constructor-arg name="age" value="21"/>
+        <constructor-arg name="rollNumber" value="102"/>
+        <constructor-arg name="address" ref="address1"/>
+    </bean>
+<!--    <bean class="com.cts.entity.Address" id="address1" c:city="Pune" c:state="Maharashtra"/>-->
+<!--    <bean class="com.cts.entity.Student" id="student1" c:name="Amit Birajdar" c:age="22" c:rollNumber="101" c:address-ref="address1"/>-->
 </beans>
 
