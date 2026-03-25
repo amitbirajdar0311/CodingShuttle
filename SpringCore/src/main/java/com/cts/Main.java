@@ -52,10 +52,22 @@ public class Main {
 //        Setter DI java based
 
 
-        ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
-        Student student = (Student) context.getBean("studentObj");
+//        ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
+//        Student student = (Student) context.getBean("studentObj");
+//        System.out.println(student);
+
+//        Autowired by annoation basesd configuration
+
+//        ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
+//        Student student = (Student) context.getBean("student");
+//        System.out.println(student);
+
+
+//        Autowired by using XML based
+
+
+        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        Student student = (Student) context.getBean("student");
         System.out.println(student);
     }
-
-
 }

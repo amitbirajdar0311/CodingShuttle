@@ -27,17 +27,35 @@
 
 
 <!--    Constructor Dependency Injection -->
-    <bean class="com.cts.entity.Address" id="address1">
-        <constructor-arg name="city" value="Pune"/>
-        <constructor-arg name="state" value="Maharashtra"/>
-    </bean>
-    <bean class="com.cts.entity.Student" id="student2">
-        <constructor-arg name="name" value="Satyarthi"/>
-        <constructor-arg name="age" value="21"/>
-        <constructor-arg name="rollNumber" value="102"/>
-        <constructor-arg name="address" ref="address1"/>
-    </bean>
+<!--    <bean class="com.cts.entity.Address" id="address1">-->
+<!--        <constructor-arg name="city" value="Pune"/>-->
+<!--        <constructor-arg name="state" value="Maharashtra"/>-->
+<!--    </bean>-->
+<!--    <bean class="com.cts.entity.Student" id="student2">-->
+<!--        <constructor-arg name="name" value="Satyarthi"/>-->
+<!--        <constructor-arg name="age" value="21"/>-->
+<!--        <constructor-arg name="rollNumber" value="102"/>-->
+<!--        <constructor-arg name="address" ref="address1"/>-->
+<!--    </bean>-->
 <!--    <bean class="com.cts.entity.Address" id="address1" c:city="Pune" c:state="Maharashtra"/>-->
 <!--    <bean class="com.cts.entity.Student" id="student1" c:name="Amit Birajdar" c:age="22" c:rollNumber="101" c:address-ref="address1"/>-->
+
+
+<!--    Autowired by XML based 01 . byName 02. byType -->
+
+<!--    <bean class="com.cts.entity.Address" id="address" p:city="Pune" p:state="Maharashtra" autowire-candidate="false"/>-->
+<!--    <bean class="com.cts.entity.Address" id="address2" p:city="Mumbai" p:state="Maharashtra"/>-->
+<!--    <bean class="com.cts.entity.Student" id="student" p:name="Amit Birajdar" p:age="22" p:rollNumber="101" autowire="byType"/>-->
+
+
+    <bean class="com.cts.entity.Address" id="address1">
+        <constructor-arg value="Pune" index="0"/>
+        <constructor-arg value="Maharashtra" index="1"/>
+    </bean>
+    <bean class="com.cts.entity.Student" id="student" autowire="constructor">
+    <constructor-arg value="Amit Birajdar" index="0"/>
+    <constructor-arg value="22" index="1"/>
+    <constructor-arg value="101" index="2"/>
+    </bean>
 </beans>
 
