@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- bean definitions here -->
+
+<!--    <bean class="com.cts.entity.Address" id="address1" p:pin="123456" p:city="Pune"/>-->
+<!--    <bean class="com.cts.entity.Std" id="std1" p:id="123" p:name="Amit Birajdar" p:address-ref="address1"/>-->
+
+    <bean class="com.cts.entity.Address" id ="address2" c:pin="123456" c:city="Pune"/>
+    <bean class="com.cts.entity.Std" id="std2" c:id="123" c:name="Amit Birajdar" c:address-ref="address2"/>
+</beans>

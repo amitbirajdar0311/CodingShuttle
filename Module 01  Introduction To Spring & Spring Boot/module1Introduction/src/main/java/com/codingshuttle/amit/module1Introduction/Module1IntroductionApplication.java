@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.Map;
 
-@SpringBootApplication
+@
 public class Module1IntroductionApplication implements CommandLineRunner {
 
 //    @Autowired

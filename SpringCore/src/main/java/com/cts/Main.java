@@ -1,6 +1,5 @@
 package com.cts;
 
-import com.cts.config.SpringConfig;
 import com.cts.entity.Student;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
