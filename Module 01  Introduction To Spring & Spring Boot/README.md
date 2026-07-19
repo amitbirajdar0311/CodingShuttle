@@ -246,7 +246,7 @@ Module 01  Introduction To Spring & Spring Boot/
 
 ### Spring Framework
 | Concept | Description |
-|---------|------------|
+|---------|-------------|
 | **IoC** | Inversion of Control - Framework manages object lifecycle |
 | **DI** | Dependency Injection - Automatic dependency provision |
 | **Bean** | Object managed by Spring container |
@@ -254,7 +254,7 @@ Module 01  Introduction To Spring & Spring Boot/
 
 ### Spring Boot
 | Feature | Purpose |
-|---------|---------|
+|---------|----------|
 | **Auto-Config** | Automatic bean creation based on dependencies |
 | **Embedded Tomcat** | No need for external server |
 | **Starters** | Pre-configured dependency packages |
@@ -262,7 +262,7 @@ Module 01  Introduction To Spring & Spring Boot/
 
 ### Maven
 | Command | Purpose |
-|---------|---------|
+|---------|----------|
 | `mvn clean` | Remove build directory |
 | `mvn compile` | Compile source code |
 | `mvn test` | Run unit tests |
@@ -428,4 +428,3 @@ After completing this module:
 **Last Updated:** July 2026  
 **Difficulty:** Beginner  
 **Estimated Duration:** 1 week
-
