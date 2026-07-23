@@ -40,3 +40,5 @@ public class Module1IntroductionApplication implements CommandLineRunner {
         }
     }
 }
+
+//Note: comment all other main class while running this class
