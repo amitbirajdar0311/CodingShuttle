@@ -1,15 +1,14 @@
 package com.codingshuttle.amit.module1Introduction;
 
-import com.codingshuttle.amit.module1Introduction.sericeImpl.EmailNotificationService;
+import com.codingshuttle.amit.module1Introduction.sericeImpl.NotificationService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.Map;
 
-@
+@SpringBootApplication
 public class Module1IntroductionApplication implements CommandLineRunner {
 
 //    @Autowired

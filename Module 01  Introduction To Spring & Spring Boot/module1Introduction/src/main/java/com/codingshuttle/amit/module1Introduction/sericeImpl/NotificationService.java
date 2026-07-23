@@ -1,4 +1,4 @@
-package com.codingshuttle.amit.module1Introduction;
+package com.codingshuttle.amit.module1Introduction.sericeImpl;
 
 public interface NotificationService {
 

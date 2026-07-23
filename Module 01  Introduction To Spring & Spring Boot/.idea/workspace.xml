@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d44fb3c-7c57-425d-818b-cdb36f77ff88" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1Introduction/src/main/java/com/codingshuttle/amit/module1Introduction/Module1IntroductionApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/module1Introduction/src/main/java/com/codingshuttle/amit/module1Introduction/Module1IntroductionApplication.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/ABTech/CodingShuttle/Module 01  Introduction To Spring &amp; Spring Boot" value="3GkubSPmcvRwNgKCuhqz1grZVwp" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="20" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;amitbirajdar0311&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/amitbirajdar0311/CodingShuttle.git&quot;,
+    &quot;accountId&quot;: &quot;44634767-26d3-4df8-862c-7d9d782ffce3&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.5805895814331312" />
+      <entry key="MS500" value="2.549570440084252" />
+      <entry key="S2" value="2.961507315658162" />
+      <entry key="S5" value="4.258395548134644" />
+      <entry key="S10" value="6.358976450313177" />
+      <entry key="S30" value="10.020601202795062" />
+      <entry key="S60" value="12.970817664706855" />
+      <entry key="M2" value="16.504782191182926" />
+      <entry key="M5" value="20.683521644606476" />
+      <entry key="M10" value="23.36829159551723" />
+      <entry key="M15" value="25.114334473560728" />
+      <entry key="M30" value="29.963524363598964" />
+      <entry key="H1" value="38.09413578350636" />
+      <entry key="H2" value="46.766343225930456" />
+      <entry key="H4" value="53.299275125900806" />
+      <entry key="D1" value="60.36971905526751" />
+      <entry key="W1" value="61.76224291199018" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="4.386006895491969E-43" />
+      <entry key="MS500" value="3.376260893829181E-9" />
+      <entry key="S2" value="0.008321492328049362" />
+      <entry key="S5" value="0.21510510738774943" />
+      <entry key="S10" value="0.7647514305035631" />
+      <entry key="S30" value="2.308368579900055" />
+      <entry key="S60" value="3.77564872060504" />
+      <entry key="M2" value="5.458796118099503" />
+      <entry key="M5" value="7.35820517802373" />
+      <entry key="M10" value="9.291110861639226" />
+      <entry key="M15" value="11.175075244784704" />
+      <entry key="M30" value="15.758283498097388" />
+      <entry key="H1" value="21.1647935397433" />
+      <entry key="H2" value="25.838899682257" />
+      <entry key="H4" value="29.023293814225894" />
+      <entry key="D1" value="32.27281541678682" />
+      <entry key="W1" value="32.89439906590459" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.4619470783905835" />
+      <entry key="MS500" value="2.5163823160264744" />
+      <entry key="S2" value="2.948686461148045" />
+      <entry key="S5" value="4.334368920829986" />
+      <entry key="S10" value="6.864873403256856" />
+      <entry key="S30" value="12.04161202522192" />
+      <entry key="S60" value="16.5078711398545" />
+      <entry key="M2" value="21.795647213949742" />
+      <entry key="M5" value="27.954559991201076" />
+      <entry key="M10" value="32.60712127788107" />
+      <entry key="M15" value="36.24885636660845" />
+      <entry key="M30" value="45.69333544248366" />
+      <entry key="H1" value="59.238859418415046" />
+      <entry key="H2" value="72.59242504635793" />
+      <entry key="H4" value="82.31516888761364" />
+      <entry key="D1" value="92.64112831067327" />
+      <entry key="W1" value="94.65643631785113" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3GkubSPmcvRwNgKCuhqz1grZVwp" />
+  <component name="ProjectSessionTemplates">
+    <option name="inlineTemplate">
+      <template>
+        <option name="modeId" value="InlineAgent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.Module1IntroductionApplication_03_02.executor": "Run",
+    "Spring Boot.Module1IntroductionApplication_04_01.executor": "Run",
+    "Spring Boot.Module1IntroductionApplication_04_02.executor": "Run",
+    "Spring Boot.Module1IntroductionApplication_04_03.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/ABTech/CodingShuttle/Module 01  Introduction To Spring & Spring Boot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ABTech\CodingShuttle\Module 01  Introduction To Spring &amp; Spring Boot\module1Introduction\src\main\java\com\codingshuttle\amit\module1Introduction" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.codingshuttle.amit.module1Introduction" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Module1IntroductionApplication_04_03">
+    <configuration name="Module1IntroductionApplication_03_02" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="module1Introduction" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingshuttle.amit.module1Introduction.Module1IntroductionApplication_03_02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingshuttle.amit.module1Introduction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Module1IntroductionApplication_04_01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="module1Introduction" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingshuttle.amit.module1Introduction.Module1IntroductionApplication_04_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingshuttle.amit.module1Introduction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Module1IntroductionApplication_04_02" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="NOTIFICATION_SERVICE_TYPE" value="email" />
+      </envs>
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="module1Introduction" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingshuttle.amit.module1Introduction.Module1IntroductionApplication_04_02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingshuttle.amit.module1Introduction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Module1IntroductionApplication_04_03" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="module1Introduction" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingshuttle.amit.module1Introduction.Module1IntroductionApplication_04_03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingshuttle.amit.module1Introduction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Module1IntroductionApplication_04_03" />
+      <item itemvalue="Spring Boot.Module1IntroductionApplication_03_02" />
+      <item itemvalue="Spring Boot.Module1IntroductionApplication_04_01" />
+      <item itemvalue="Spring Boot.Module1IntroductionApplication_04_02" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Module1IntroductionApplication_04_03" />
+        <item itemvalue="Spring Boot.Module1IntroductionApplication_04_02" />
+        <item itemvalue="Spring Boot.Module1IntroductionApplication_04_01" />
+        <item itemvalue="Spring Boot.Module1IntroductionApplication_03_02" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.258" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.258" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d44fb3c-7c57-425d-818b-cdb36f77ff88" name="Changes" comment="" />
+      <created>1771867229748</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771867229748</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="fb39d4db-73fd-4ea3-964d-7b2f4c6c2778" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="fb39d4db-73fd-4ea3-964d-7b2f4c6c2778">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/ABTech/CodingShuttle/Module 01  Introduction To Spring &amp; Spring Boot" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

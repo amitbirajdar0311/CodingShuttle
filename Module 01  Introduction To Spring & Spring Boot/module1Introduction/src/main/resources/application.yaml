@@ -10,5 +10,5 @@ notification:
     type: email
 
 
-debug:
-  true
+#debug:
+#  true
